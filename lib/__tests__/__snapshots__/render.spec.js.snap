@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render render scenarios base template with embedded fragment with injected data should render fragment 1`] = `
+FragmentBody {
+  "_body": "<p>template</p><p>embed 1234</p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render render scenarios base template with nested fragments with injected data should render fragment 1`] = `
+FragmentBody {
+  "_body": "<p>template</p><p>another template<span><p>template</p><p>embed 1234</p></span></p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render render scenarios base template with repeat embedded fragment with injected data should render fragment 1`] = `
+FragmentBody {
+  "_body": "<p>template</p><p>embed one</p><p>embed two</p><p>embed three</p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render render scenarios base template with repeat embedded fragment with no data should render fragment 1`] = `
+FragmentBody {
+  "_body": "<p>template</p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render render scenarios base template with simple fragment inject should render fragment 1`] = `
+FragmentBody {
+  "_body": "<p>template</p><p>hi</p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render render scenarios greeter should render a basic fragment 1`] = `
+FragmentBody {
+  "_body": "<p>hi</p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render rendering error scenarios base template with embedded fragment with missing data should render fragment 1`] = `
+FragmentBody {
+  "_body": "<p>template</p><p>Sorry this content could not be rendered. Please try again.</p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render rendering error scenarios base template with not required missing fragment should render fragment and show error message 1`] = `
+FragmentBody {
+  "_body": "<p>template</p><p>Sorry this content could not be fetched. Please try again.</p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render rendering error scenarios base template with repeat embedded fragment with missing data should render fragment 1`] = `
+FragmentBody {
+  "_body": "<p>template</p><p>Sorry this content could not be rendered. Please try again.</p>",
+  "_contentType": "text/html",
+}
+`;
+
+exports[`render rendering error scenarios base template with unknown fragment name should throw and not render 1`] = `[Error: A source fragment does not exist with name greeter]`;
+
+exports[`render rendering error scenarios missing local base path should throw 1`] = `[Error: A fragment body is undefined]`;
+
+exports[`render successful fetch should render a basic fragment 1`] = `
+FragmentBody {
+  "_body": "test",
+  "_contentType": "text/html",
+}
+`;

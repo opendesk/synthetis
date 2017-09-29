@@ -1,0 +1,23 @@
+{
+  "data": {
+    "numbers": 1234,
+    "text": "text",
+    "object": {
+      "boolean": true
+    },
+    "array": [
+      {
+        "name": "one",
+        "text": "Hi one!"
+      },
+      {
+        "name": "two",
+        "text": "Hi two!"
+      },
+      {
+        "name": "three",
+        "text": "Hi three!"
+      }
+    ]
+  }
+}

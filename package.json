@@ -1,0 +1,39 @@
+{
+  "name": "synthetis",
+  "description": "Compose templated content and data into single document",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevegeek/synthetis"
+  },
+  "keywords": [
+    "proxy",
+    "HTML composition"
+  ],
+  "author": "Stephen Ierodiaconou & Opendesk (http://opendesk.cc)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/stevegeek/synthetis/issues"
+  },
+  "homepage": "https://github.com/stevegeek/synthetis",
+  "scripts": {
+    "test": "eslint -c .eslintrc.js ./lib && jest",
+    "docs": "jsdoc -R ./README.md --verbose -P ./package.json -c ./jsdoc-config.json"
+  },
+  "engines": {
+    "node": ">=7.8.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "dot": "^1.1.1",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.0"
+  },
+  "devDependencies": {
+    "docdash": "^0.4.0",
+    "eslint": "^3.19.0",
+    "jest": "^20.0.4",
+    "jsdoc": "^3.4.3"
+  }
+}
