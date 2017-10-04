@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevegeek/synthetis"
+    "url": "https://github.com/opendesk/synthetis"
   },
   "keywords": [
     "proxy",
@@ -13,9 +13,9 @@
   "author": "Stephen Ierodiaconou & Opendesk (http://opendesk.cc)",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/stevegeek/synthetis/issues"
+    "url": "https://github.com/opendesk/synthetis/issues"
   },
-  "homepage": "https://github.com/stevegeek/synthetis",
+  "homepage": "https://github.com/opendesk/synthetis",
   "scripts": {
     "test": "eslint -c .eslintrc.js ./lib && jest",
     "docs": "jsdoc -R ./README.md --verbose -P ./package.json -c ./jsdoc-config.json"
